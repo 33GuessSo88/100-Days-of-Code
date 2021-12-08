@@ -40,8 +40,8 @@ while game_over == False:
     #print(f"players guess is {players_guess}")
     choiceA_num = choiceA['follower_count']
     choiceB_num = choiceB['follower_count']        
-    print(f"choice A is {choiceA_num} of followers")
-    print(f"choice B is {choiceB_num} of followers")
+    #print(f"choice A is {choiceA_num} of followers")
+    #print(f"choice B is {choiceB_num} of followers")
 
     #TODO compare players choice to other choice and find higher
     game_over = compare_followers(players_guess, choiceA_num, choiceB_num)
